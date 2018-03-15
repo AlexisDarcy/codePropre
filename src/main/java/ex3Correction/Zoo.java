@@ -34,12 +34,7 @@ public class Zoo {
 		}
 	}
 	
-	public void remplirZone(List<Animal> listAnimal, Zone zone){
-		for(Animal animal : listAnimal){
-			zone.addAnimal(animal);
-		}
-	}
-	/**
+	/** affiche toute les animaux
 	 * 
 	 */
 	public void afficherListeAnimaux(){
